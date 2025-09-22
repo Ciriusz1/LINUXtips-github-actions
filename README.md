@@ -86,8 +86,3 @@ Ao completar cada workflow com sucesso, você ganha os badges:
 ---
 
 **Feito pela comunidade LINUXtips.**
-
-Alterando e adicionando o nome
-Cirano da Silva Gonçalves
-
-
