@@ -26,11 +26,11 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
 
-      - name: "Instalar Deps"
+      - name: "Instalar Deps"ci 
         run: npm ci
 
       - name: "Executar tests"
-        run: rpm run tests
+        run: npm run tests
 
       - name: "Extrair porcentagem de cobertura" # Esse step será validado pelo desafio, não altere o nome. No final, ele deve gerar o output "coverage" com a porcentagem de cobertura.
         id: coverage
