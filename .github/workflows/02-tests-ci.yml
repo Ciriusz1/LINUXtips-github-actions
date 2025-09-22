@@ -25,8 +25,7 @@ jobs:
         uses: actions/setup-node@v5
         with:
           node-version: ${{ env.NODE_VERSION }}
-
-      - name: "Instalar Deps"ci 
+      - name: "Instalar Deps"
         run: npm ci
 
       - name: "Executar tests"
